@@ -3,7 +3,7 @@ from discord.ext.commands import bot
 from discord import game
 from discord.ext import commands
 
-client = commands.Bot(command_prefix = '!')
+client = commands.Bot(command_prefix = '₹')
 
 @client.event
 async def on_ready():
@@ -269,5 +269,5 @@ async def daily(ctx):
         x = "You have " + str(apap) + " left!"
         await client.say(x)
 
-client.run("NjI3NzkyNTg2Njc3MDI2ODE2.XZBzfA.OnCHCXrFA1_Mp_hzw4t_hS3JeWY")
+client.run("NTQyODkyNzMwMTc5OTExNjky.XZLF9A.uXF0ROqMN1dcIbv-G8VLb7F2tEI")
 
